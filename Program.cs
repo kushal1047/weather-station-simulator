@@ -17,6 +17,10 @@
             }
             double averageTemperature = CalculateAverageTemperature(temperatures);
             Console.WriteLine($"The average temperature is {averageTemperature}");
+            Console.WriteLine("The max temperature is "+ temperatures.Max());
+            Console.WriteLine("The min temperature is " + temperatures.Min());
+            Console.WriteLine("The min temperature is " + MinTemp(temperatures));
+
             Console.ReadKey();
             static double CalculateAverageTemperature(int[] temperatures) {
                 int totalTemp = 0;
@@ -26,8 +30,16 @@
                 }
                 return ((Double)totalTemp / temperatures.Length);
             }
-            double AverageTemperature = CalculateAverageTemperature(temperatures);
-
+            static int MinTemp(int[] temperatures) { 
+                int min = temperatures[0];
+                foreach (int temp in temperatures)
+                {
+                    if (temp < min) { 
+                    min = temp;
+                    }
+                }
+                return min;
+            }
         }
     }
 }
