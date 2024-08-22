@@ -12,3 +12,4 @@ D:\Personal Projects\C#\WeatherStationSimulator\WeatherStationSimulator\obj\Debu
 D:\Personal Projects\C#\WeatherStationSimulator\WeatherStationSimulator\obj\Debug\net8.0\WeatherStationSimulator.pdb
 D:\Personal Projects\C#\WeatherStationSimulator\WeatherStationSimulator\obj\Debug\net8.0\WeatherStationSimulator.genruntimeconfig.cache
 D:\Personal Projects\C#\WeatherStationSimulator\WeatherStationSimulator\obj\Debug\net8.0\ref\WeatherStationSimulator.dll
+D:\Personal Projects\C#\WeatherStationSimulator\WeatherStationSimulator\obj\Debug\net8.0\WeatherStationSimulator.sourcelink.json

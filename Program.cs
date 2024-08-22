@@ -15,6 +15,19 @@
                 temperatures[i] = random.Next(-10, 40);
                 weatherConditions[i] = conditions[random.Next(conditions.Length)];
             }
+            double averageTemperature = CalculateAverageTemperature(temperatures);
+            Console.WriteLine($"The average temperature is {averageTemperature}");
+            Console.ReadKey();
+            static double CalculateAverageTemperature(int[] temperatures) {
+                int totalTemp = 0;
+                foreach (int temp in temperatures)
+                {
+                    totalTemp += temp;
+                }
+                return ((Double)totalTemp / temperatures.Length);
+            }
+            double AverageTemperature = CalculateAverageTemperature(temperatures);
+
         }
     }
 }
